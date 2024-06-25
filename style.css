@@ -1,0 +1,115 @@
+body{
+    background-color: #2d2d2d;
+}
+
+
+header {
+    height: 122px;
+    background-color: #000;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+.nav-buttons {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.nav-button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.nav-button:hover {
+    background-color: #777;
+}
+.nav-button:active {
+    background-color: #999;
+}
+
+
+.entre{
+    font-size: 32px;
+    padding: 1em 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.vendedor {
+    color: white;
+    background-color: #000;
+    border: 2px solid rgb(0, 0, 255);
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 593px;
+}
+.vendedor img {
+    border-radius: 25%;
+    width: 100px;
+    height: 132.12px;
+}
+.imagem_home{
+    width: auto;   
+    height: auto;
+}
+.vendedor .info {
+    text-align: left;
+}
+.vendedor h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+.vendedor p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #aaa;
+}
+
+
+
+.footer {
+    width: 100%;
+    color: #ffffff;
+    background-color: #000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.footer div {
+    width: 45%;
+}
+.footer h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+.footer p {
+    margin: 5px 0;
+}
+.redesocial {
+    display: flex;
+    gap: 10px;
+}
+.redesocial img {
+    width: 30px;
+    height: 30px;
+}

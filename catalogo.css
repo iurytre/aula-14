@@ -1,0 +1,201 @@
+body{
+    background-color: #2d2d2d;
+}
+
+
+header {
+    height: 122px;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+.nav-buttons {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.nav-button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.nav-button:hover {
+    background-color: #777;
+}
+.nav-button:active {
+    background-color: #999;
+}
+
+
+.cat{
+    font-size: 32px;
+    padding: 1em 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.card {
+    background-color: #000000;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.card h2 {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.card p {
+    color: #ffffff;
+    margin: 5px 0;
+}
+.preco {
+    font-size: 22px;
+    color: #ffffff;
+    margin: 10px 0;
+}
+
+
+aside.filter {
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+}
+aside.filter h2 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.filter-grup {
+    margin-bottom: 15px;
+}
+.filter-grup label {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+}
+.filter-grup select,
+.filter-grup input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+.filter-grup input {
+    margin-top: 5px;
+}
+
+
+.con2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.car{
+    background-color: #000000;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+}
+.car img {
+    width: 100%;
+    border-radius: 10px;
+}
+.car h2 {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.car p {
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+.as2{
+    width: 160px;
+}
+
+
+.con3{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.car1{
+    background-color: #000000;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+}
+.car1 img {
+    width: 100%;
+    border-radius: 10px;
+}
+.car1 h2 {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.car1 p {
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+.as3{
+    width: 160px;
+}
+
+
+.footer {
+    width: 100%;
+    color: #ffffff;
+    background-color: #000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    left: 0;
+    bottom: 0;
+}
+.footer div {
+    width: 45%;
+}
+.footer h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+.footer p {
+    margin: 5px 0;
+}
+.redesocial {
+    display: flex;
+    gap: 10px;
+}
+.redesocial img {
+    width: 30px;
+    height: 30px;
+}

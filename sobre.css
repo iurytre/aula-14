@@ -1,0 +1,105 @@
+body{
+    background-color: #2d2d2d;
+}
+
+
+header {
+    height: 122px;
+    background-color: #000;
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+.nav-buttons {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.nav-button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.nav-button:hover {
+    background-color: #777;
+}
+.nav-button:active {
+    background-color: #999;
+}
+
+
+.sobre{
+    color: white;
+    overflow: hidden;
+    position: relative;
+    height: 900px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sobre_ct{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cl{
+    width: 333px;
+    height: 240px;
+}
+.sobre_bg{
+    opacity: 0.08;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 900px;
+}
+.sobre_texto{
+    margin: 20px;
+    text-align: center;
+    width: 600px;
+    padding-bottom: 100PX;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+
+.footer {
+    width: 100%;
+    color: #ffffff;
+    background-color: #000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    left: 0;
+    bottom: 0;
+}
+.footer div {
+    width: 45%;
+}
+.footer h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+.footer p {
+    margin: 5px 0;
+}
+.redesocial {
+    display: flex;
+    gap: 10px;
+}
+.redesocial img {
+    width: 30px;
+    height: 30px;
+}
