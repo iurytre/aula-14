@@ -81,6 +81,7 @@ aside.filter {
     margin-right: 20px;
     width: 100px;
     height: 100px;
+
 }
 aside.filter h2 {
     color: #ffffff;
@@ -89,6 +90,7 @@ aside.filter h2 {
 }
 .filter-grup {
     margin-bottom: 15px;
+
 }
 .filter-grup label {
     color: white;
@@ -133,9 +135,6 @@ aside.filter h2 {
     margin: 5px 0;
 }
 
-.as2{
-    width: 160px;
-}
 
 
 .con3{
@@ -164,9 +163,13 @@ aside.filter h2 {
     margin: 5px 0;
 }
 
-.as3{
-    width: 160px;
+.catalogo_topo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
 }
+
 
 
 .footer {
@@ -198,4 +201,40 @@ aside.filter h2 {
 .redesocial img {
     width: 30px;
     height: 30px;
+}
+
+@media(max-width:830px){
+
+    main{
+        margin: 0 40px;
+    }
+
+    aside{
+        margin-left: 50px;
+    }
+
+    .filter-grup {
+    margin-bottom: 15px;
+}
+
+.catalogo_topo{
+    justify-content: space-between;
+}
+
+.filter-grup label {
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+    width: 80px;
+}
+.filter-grup select,
+.filter-grup input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+.filter-grup input {
+    margin-top: 5px;
+}
 }
